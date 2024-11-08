@@ -1,21 +1,62 @@
-h2{
-    text-align: center;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(253, 240, 240); /* Fundo suave */
 }
-
-#btn{
-    text-align: center;
+ 
+#container {
     padding-top: 50px;
-    border: blueviolet;
+    border: 1px solid rgb(31, 65, 114); /* Borda azul médio */
+    border-radius: 30px;
+    background-color: rgb(241, 180, 187); /* Fundo do container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
-
-form{
-    border: 1px solid rgb(70, 7, 129);
+ 
+form {
     padding-top: 50px;
-    margin-top: 90px;
-    padding-left: 50px;
+}
+ 
+h2 {
+    text-align: center;
+    color: rgb(19, 32, 67); /* Texto em azul escuro */
+    margin-bottom: 30px;
+}
+ 
+.btn {
+    background-color: rgb(31, 65, 114); /* Botão azul médio */
+    border: none;
+    border-radius: 25px;
+    color: white; /* Texto do botão */
+    transition: background-color 0.3s ease;
+}
+ 
+.btn:hover {
+    background-color: rgb(52, 13, 95); /* Botão escurece ao passar o mouse */
+}
+ 
+input.form-control {
     border-radius: 20px;
-    padding-bottom: 30px;
-    background-color: rgb(215, 186, 243);
-
-
+    border: 1px solid rgb(74, 49, 121); /* Borda azul médio */
+    padding: 10px;
+    transition: border-color 0.3s;
 }
+ 
+input.form-control:focus {
+    border-color: rgb(88, 25, 206); /* Borda azul escuro ao focar */
+    box-shadow: 0 0 5px rgba(19, 32, 67, 0.5); /* Efeito de sombra */
+}
+ 
+.row {
+    margin-bottom: 20px;
+}
+ 
+#btn {
+    text-align: center;
+    padding: 4%;
+    transition: transform 0.3s;
+    color:rgb(74, 49, 121)
+}
+ 
+#btn:hover {
+    transform: translateY(-2px);
+}
+ 
