@@ -10,6 +10,8 @@ Este projeto consiste em um formulário de cadastro completo, com validações e
 - Data de Nascimento
 - Endereço Completo (com consumo de API)
 
+![](img/projwto.png)
+
 ## **Estrutura do Projeto**
 
 O projeto é composto por três arquivos principais:
