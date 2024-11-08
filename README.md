@@ -108,4 +108,11 @@ Este formulário de cadastro foi projetado para ser simples e funcional, com val
 
 
 ----------------------------------------------------------------------------------------
+#### **PROJETOS UTILIZADOS**
+
+1. https://github.com/melissasp200/form-CadEndereco
+2. https://github.com/melissasp200/login-cad
+3. https://github.com/melissasp200/form-login
+
+-------------------------------------------------------------------------------
 *Por Melissa de Souza Pinto*
